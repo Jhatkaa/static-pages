@@ -1,0 +1,17 @@
+<script>
+  const sites = [
+   "The Forest Conservation Act Amendment is slated to pass this Monsoon Session and it gravely endangers our forests by declassifying them and making it vulnerable to mining, destruction etc. @Jhatkaadotorg https://bit.ly/stopfca2023 . Requesting @byadavbjp to #StopFCA",
+   "The Forest Conservation Amendment Bill will make 15% of India's forests vulnerable to dangerous activities. There can be rampant destruction because of it. @Jhatkaadotorg Sign- https://bit.ly/stopfca2023 . Requesting @byadavbjp to #StopFCA",
+   "The Forest Conservation Amendment Bill will take away the rights of forest dwelling communities to consent to projects that happen in their forests. It'll take away their homes from them overnight. @Jhatkaadotorg Sign- https://bit.ly/stopfca2023 . Requesting @byadavbjp to #StopFCA",
+   "The Forest Conservation Amendment Bill will put to danger forests in North-East and Uttarakhand that have the highest forest cover in India and are biodiversity hotspots. @Jhatkaadotorg Sign-  https://bit.ly/stopfca2023 . Requesting @byadavbjp to #StopFCA",
+   "The Forest Conservation Amendment Bill will put forests in danger by allowing drilling for extraction of natural gas and oil resources there. This will alter our forests completely. @Jhatkaadotorg Sign- https://bit.ly/stopfca2023 . Requesting @byadavbjp to #StopFCA",
+   "The Forest Conservation Amendment Bill will give permission for forests to be replaced by zoos and safaris. How does this make sense? @Jhatkaadotorg Sign- https://bit.ly/stopfca2023 . Requesting @byadavbjp to #StopFCA"
+  ];
+
+  function randomSite() {
+    var i = parseInt(Math.random() * sites.length);
+    location.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(sites[i])}`;
+  }
+</script>
+
+<body onload='randomSite()'>
